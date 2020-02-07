@@ -1,0 +1,118 @@
+header {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+nav {
+    height: 25px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+main {
+    border: 1px solid black;
+    min-height: 350px;
+    overflow: auto;
+}
+
+.producto_portada {
+    width: 38%;
+    float: left;
+    border: 1px solid black;
+    padding: 2em;
+    margin: 2%;
+}
+
+.producto_foto_portada {
+    width: 90%;
+}
+
+.boton_comprar {
+    padding: 10px;
+    display: block;
+    float: left;
+    border: 1px solid black;
+    background-color: #99F;
+    width: 69%;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#cantidad {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    font-size: 10px;
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.precio {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.producto_foto_listado {
+    height: 60px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.producto_listado {
+    margin: 20px;
+    border: 1px solid black;
+}
+
+#cuadro_usuario {
+    float: right;
+}
+
+.texto_form {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+    background-color: white;
+    box-sizing: content-box;
+}
+
+.input_form {
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+    background-color: white;
+    box-sizing: content-box;
+}
+
+.boton_form {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+    background-color: #555;
+    color: white;
+    box-sizing: content-box;
+    width: 400px;
+}
+
+#registro_form label {
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2em;
+    display: block;
+    float: left;
+    width: 80px;
+}
+
+#registro_form {
+    width: 600px;
+    margin: auto;
+}
